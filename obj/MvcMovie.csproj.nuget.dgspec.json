@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/family/projects/MvcMovie/MvcMovie.csproj": {}
+    "/Users/family/projects/MvcMovieProject/MvcMovie.csproj": {}
   },
   "projects": {
-    "/Users/family/projects/MvcMovie/MvcMovie.csproj": {
+    "/Users/family/projects/MvcMovieProject/MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/family/projects/MvcMovie/MvcMovie.csproj",
+        "projectUniqueName": "/Users/family/projects/MvcMovieProject/MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "/Users/family/projects/MvcMovie/MvcMovie.csproj",
+        "projectPath": "/Users/family/projects/MvcMovieProject/MvcMovie.csproj",
         "packagesPath": "/Users/family/.nuget/packages/",
-        "outputPath": "/Users/family/projects/MvcMovie/obj/",
+        "outputPath": "/Users/family/projects/MvcMovieProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/family/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,32 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
